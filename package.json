@@ -5,6 +5,11 @@
   "type": "module",
   "author": "myub25217@gmail.com",
   "license": "MIT",
+  "packageManager": "pnpm@10.13.1",
+  "engines": {
+    "node": ">=18.0.0",
+    "pnpm": ">=10.0.0"
+  },
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -50,9 +55,5 @@
     "typescript": "^5.9.2",
     "vite": "^7.0.6",
     "vite-tsconfig-paths": "^5.1.4"
-  },
-  "engines": {
-    "node": ">=18.0.0",
-    "pnpm": ">=8.0.0"
   }
 }
