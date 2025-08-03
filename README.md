@@ -56,30 +56,7 @@ Host github-404
 # ทดสอบการเชื่อมต่อ
 ssh -T git@github-404
 
-
----
-
-🔨 Init Project Script (พร้อม autogen folder + vite setup)
-
-pnpm dlx tsx scripts/init-project.ts
-
-> สคริปต์นี้จะ:
-
-
-
-สร้างโครงสร้างโฟลเดอร์ src/components, src/utils/common, ...
-
-สร้างไฟล์ vite.config.ts, tsconfig.json, vite-env.d.ts
-
-ติดตั้ง dev tools: ESLint, Prettier, Husky
-
-เชื่อมต่อ remote: git@github.com:myub217/404notfont.git
-
-
-
----
-
-🧰 Dev Scripts
+hi
 
 // package.json scripts
 {
