@@ -1,0 +1,11 @@
+# Node
+node_modules
+dist
+.env
+.env.*.local
+pnpm-lock.yaml
+
+# System
+.DS_Store
+.idea
+.vscode
